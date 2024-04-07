@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Breadcrumb, Layout, Menu, theme } from 'antd';
-import { LaptopOutlined, NotificationOutlined, UserOutlined } from '@ant-design/icons';
+import { LaptopOutlined, NotificationOutlined, UserOutlined, GoogleOutlined } from '@ant-design/icons';
 import { MenuProps } from 'antd';
 import _ from 'lodash';
 
@@ -25,6 +25,7 @@ const items1 = _.map(this.props.textMenu,(key) => ({
         items={items1}
         style={{ flex: 1, minWidth: 0 }}
       />
+      <GoogleOutlined  onClick={this.props.auth} style={{ color: 'white', alignItems: 'right' }}/>
     </Header>
   </Layout>
   );
