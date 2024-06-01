@@ -1,0 +1,19 @@
+
+
+.Main {
+    
+    display: flex;
+    background-color:white;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius:30px  ;
+    margin-top: 4%;
+    
+}
+
+.Navigation {
+}
+
+.Content {
+    
+    flex:1;
+}
