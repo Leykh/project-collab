@@ -4,6 +4,9 @@ pipeline {
         stage('Build') {
             steps {
                 echo "Etape de build"
+                sh "chmod +x -R ${env.WORKSPACE}"
+                sh 'cd backend'
+                sh 'npm install'
             }
         }
         stage('Tests') {
