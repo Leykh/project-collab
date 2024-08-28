@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Tests') {
             steps {
-                sh ' chmod +x ./scripts/test.sh'
+                sh 'chmod +x -R ./scripts/test.sh'
                 echo "Etape de test"
             }
         }
