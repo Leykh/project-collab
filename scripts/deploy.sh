@@ -1,8 +1,8 @@
 cd frontend
 
-set -x
-npm run build
-set +x
+#set -x
+#npm run build
+#set +x
 set -x
 npm start &
 sleep 1
