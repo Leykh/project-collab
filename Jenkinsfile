@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Tests') {
             steps {
-                echo "Etape de test webhook"
+                echo "Etape de test"
             }
         }
         stage ('Deploy') {
