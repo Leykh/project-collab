@@ -1,3 +1,5 @@
+dir frontend
+
 set -x
 npm run build
 set +x

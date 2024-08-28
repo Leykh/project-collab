@@ -20,11 +20,9 @@ pipeline {
             steps {
                 echo "Etape de déploiement github"
                 sh "chmod +x -R ${env.WORKSPACE}"
-                dir('frontend') {
-                    sh './scripts/deploy.sh' 
-                    input message: 'Finished using the web site? (Click "Proceed" to continue)' 
-                    sh './scripts/kill.sh' 
-                }
+                sh './scripts/deploy.sh' 
+                input message: 'Finished using the web site? (Click "Proceed" to continue)' 
+                sh './scripts/kill.sh' 
             }
         }
     }
