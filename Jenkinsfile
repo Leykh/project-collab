@@ -5,7 +5,7 @@ pipeline {
             steps {
                 echo "Etape de build"
                 dir('frontend') {
-                    sh "npm install" 
+                    sh "npm i --force install" 
                 }
             }
         }
