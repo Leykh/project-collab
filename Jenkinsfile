@@ -9,8 +9,7 @@ pipeline {
         stage('Tests') {
             steps {
                 echo "Etape de test"
-                who
-                //sh 'scripts/test.sh'
+                chmod +x sh 'scripts/test.sh'
             }
         }
         stage ('Deploy') {
