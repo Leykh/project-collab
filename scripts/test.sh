@@ -2,7 +2,7 @@
 
 # npm install --save-dev cross-env
 
-set -x
+#set -x
 echo 'runner Jest (https://project-collab.github.io/jest/).'
 echo 'ROUTES OK'
 echo 'SERVEUR OK'

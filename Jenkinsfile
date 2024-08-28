@@ -9,7 +9,7 @@ pipeline {
         stage('Tests') {
             steps {
                 sh "chmod +x -R ${env.WORKSPACE}"
-                sh ' chmod +x ./scripts/test.sh'
+                sh ' ./scripts/test.sh'
                 echo "Etape de test"
             }
         }
