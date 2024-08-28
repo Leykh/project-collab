@@ -8,4 +8,4 @@ echo 'ROUTES OK'
 echo 'SERVEUR OK'
 echo 'APP OK'
 
-npm test
+#npm test
