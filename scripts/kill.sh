@@ -1,3 +1,3 @@
-dir frontend
+cd frontend
 set -x
 kill $(cat .pidfile)

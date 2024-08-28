@@ -1,4 +1,4 @@
-dir frontend
+cd frontend
 
 set -x
 npm run build
