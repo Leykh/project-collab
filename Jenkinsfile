@@ -6,7 +6,7 @@ pipeline {
                 echo "Etape de build"
                 dir('frontend') {
                     sh "npm i --force install" 
-					echo "En install main" 
+					echo "En install main bypass" 
                 }
             }
         }
